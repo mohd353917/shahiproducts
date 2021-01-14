@@ -1,0 +1,481 @@
+[
+    { "model": "home.location", "pk": 1, "fields": { "name": "Kareli" } },
+    { "model": "home.location", "pk": 2, "fields": { "name": "Mirapur" } },
+    { "model": "home.location", "pk": 3, "fields": { "name": "Noorullah Road" } },
+    { "model": "home.location", "pk": 4, "fields": { "name": "Nakaskona" } },
+    { "model": "home.location", "pk": 5, "fields": { "name": "Khuldabad" } },
+    { "model": "home.location", "pk": 6, "fields": { "name": "Himmatganj" } },
+    {
+        "model": "home.manufacturer",
+        "pk": 1,
+        "fields": {
+            "added_on": "2021-01-12T18:04:28.358Z",
+            "name": "Shahi",
+            "location": 1
+        }
+    },
+    {
+        "model": "home.inventory",
+        "pk": 1,
+        "fields": {
+            "arrived_at": "2021-01-12T18:10:22.610Z",
+            "product": 1,
+            "quantity": 226
+        }
+    },
+    {
+        "model": "home.inventory",
+        "pk": 2,
+        "fields": {
+            "arrived_at": "2021-01-12T18:11:55.745Z",
+            "product": 2,
+            "quantity": 182
+        }
+    },
+    {
+        "model": "home.inventory",
+        "pk": 3,
+        "fields": {
+            "arrived_at": "2021-01-12T18:59:00.642Z",
+            "product": 3,
+            "quantity": 210
+        }
+    },
+    {
+        "model": "home.product",
+        "pk": 1,
+        "fields": {
+            "added_on": "2021-01-12T18:10:09.233Z",
+            "name": "Turmeric(25g)",
+            "manufacturer": 1,
+            "stock_price": 6.0,
+            "retail_price": 7.5,
+            "stock": 226
+        }
+    },
+    {
+        "model": "home.product",
+        "pk": 2,
+        "fields": {
+            "added_on": "2021-01-12T18:11:48.732Z",
+            "name": "Coriander(25g)",
+            "manufacturer": 1,
+            "stock_price": 6.0,
+            "retail_price": 7.5,
+            "stock": 182
+        }
+    },
+    {
+        "model": "home.product",
+        "pk": 3,
+        "fields": {
+            "added_on": "2021-01-12T18:13:12.317Z",
+            "name": "Red Chilli(15g)",
+            "manufacturer": 1,
+            "stock_price": 6.3,
+            "retail_price": 7.5,
+            "stock": 205
+        }
+    },
+    {
+        "model": "home.product",
+        "pk": 4,
+        "fields": {
+            "added_on": "2021-01-12T18:14:52.813Z",
+            "name": "Turmeric(50g)",
+            "manufacturer": 1,
+            "stock_price": 9.71,
+            "retail_price": 10.8,
+            "stock": 95
+        }
+    },
+    {
+        "model": "home.product",
+        "pk": 5,
+        "fields": {
+            "added_on": "2021-01-12T18:15:58.207Z",
+            "name": "Coriander(50g)",
+            "manufacturer": 1,
+            "stock_price": 10.33,
+            "retail_price": 12.05,
+            "stock": 128
+        }
+    },
+    {
+        "model": "home.product",
+        "pk": 6,
+        "fields": {
+            "added_on": "2021-01-12T18:18:04.408Z",
+            "name": "Red Chilli(50g)",
+            "manufacturer": 1,
+            "stock_price": 13.8,
+            "retail_price": 16.1,
+            "stock": 100
+        }
+    },
+    {
+        "model": "home.product",
+        "pk": 7,
+        "fields": {
+            "added_on": "2021-01-12T18:22:53.159Z",
+            "name": "Turmeric(100g)",
+            "manufacturer": 1,
+            "stock_price": 19.2,
+            "retail_price": 21.0,
+            "stock": 35
+        }
+    },
+    {
+        "model": "home.product",
+        "pk": 8,
+        "fields": {
+            "added_on": "2021-01-12T18:24:10.502Z",
+            "name": "Coriander(100g)",
+            "manufacturer": 1,
+            "stock_price": 19.8,
+            "retail_price": 22.4,
+            "stock": 60
+        }
+    },
+    {
+        "model": "home.product",
+        "pk": 9,
+        "fields": {
+            "added_on": "2021-01-12T18:25:28.687Z",
+            "name": "Red Chilli(100g)",
+            "manufacturer": 1,
+            "stock_price": 28.2,
+            "retail_price": 30.0,
+            "stock": 13
+        }
+    },
+    {
+        "model": "home.product",
+        "pk": 10,
+        "fields": {
+            "added_on": "2021-01-12T18:29:24.123Z",
+            "name": "Turmeric(200g)",
+            "manufacturer": 1,
+            "stock_price": 36.51,
+            "retail_price": 40.2,
+            "stock": 85
+        }
+    },
+    {
+        "model": "home.product",
+        "pk": 11,
+        "fields": {
+            "added_on": "2021-01-12T18:30:25.075Z",
+            "name": "Coriander(200g)",
+            "manufacturer": 1,
+            "stock_price": 33.82,
+            "retail_price": 42.0,
+            "stock": 88
+        }
+    },
+    {
+        "model": "home.product",
+        "pk": 12,
+        "fields": {
+            "added_on": "2021-01-12T18:31:15.862Z",
+            "name": "Red Chilli(200g)",
+            "manufacturer": 1,
+            "stock_price": 50.0,
+            "retail_price": 56.8,
+            "stock": 75
+        }
+    },
+    {
+        "model": "home.product",
+        "pk": 13,
+        "fields": {
+            "added_on": "2021-01-12T18:32:57.636Z",
+            "name": "Turmeric(500g)",
+            "manufacturer": 1,
+            "stock_price": 81.5,
+            "retail_price": 95.5,
+            "stock": 0
+        }
+    },
+    {
+        "model": "home.product",
+        "pk": 14,
+        "fields": {
+            "added_on": "2021-01-12T18:33:28.273Z",
+            "name": "Coriander(500g)",
+            "manufacturer": 1,
+            "stock_price": 81.5,
+            "retail_price": 95.0,
+            "stock": 0
+        }
+    },
+    {
+        "model": "home.product",
+        "pk": 15,
+        "fields": {
+            "added_on": "2021-01-12T18:34:08.780Z",
+            "name": "Red Chilli(500g)",
+            "manufacturer": 1,
+            "stock_price": 128.0,
+            "retail_price": 135.0,
+            "stock": 1
+        }
+    },
+    {
+        "model": "home.product",
+        "pk": 16,
+        "fields": {
+            "added_on": "2021-01-12T18:35:38.835Z",
+            "name": "Turmeric(1kg)",
+            "manufacturer": 1,
+            "stock_price": 162.0,
+            "retail_price": 185.0,
+            "stock": 22
+        }
+    },
+    {
+        "model": "home.product",
+        "pk": 17,
+        "fields": {
+            "added_on": "2021-01-12T18:36:24.311Z",
+            "name": "Coriander(1kg)",
+            "manufacturer": 1,
+            "stock_price": 162.0,
+            "retail_price": 184.0,
+            "stock": 20
+        }
+    },
+    {
+        "model": "home.product",
+        "pk": 18,
+        "fields": {
+            "added_on": "2021-01-12T18:37:05.532Z",
+            "name": "Red Chilli(1kg)",
+            "manufacturer": 1,
+            "stock_price": 245.0,
+            "retail_price": 260.0,
+            "stock": 17
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 1,
+        "fields": {
+            "added_on": "2021-01-12T18:38:50.995Z",
+            "name": "Saeed Store",
+            "shopkeeper_name": "Saeed Bhai",
+            "location": 1
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 2,
+        "fields": {
+            "added_on": "2021-01-12T18:39:34.852Z",
+            "name": "MM Traders",
+            "shopkeeper_name": "Fahad bhai",
+            "location": 1
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 3,
+        "fields": {
+            "added_on": "2021-01-12T18:41:31.355Z",
+            "name": "Maqsood General Store",
+            "shopkeeper_name": "Gulam bhai",
+            "location": 1
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 4,
+        "fields": {
+            "added_on": "2021-01-12T18:42:05.723Z",
+            "name": "Rashan Ghar",
+            "shopkeeper_name": "Abdullah bhai",
+            "location": 1
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 5,
+        "fields": {
+            "added_on": "2021-01-12T18:42:44.067Z",
+            "name": "Star Dairy",
+            "shopkeeper_name": "Aslam bhai",
+            "location": 1
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 6,
+        "fields": {
+            "added_on": "2021-01-12T18:43:20.671Z",
+            "name": "Hotel",
+            "shopkeeper_name": "Amir bhai",
+            "location": 1
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 7,
+        "fields": {
+            "added_on": "2021-01-12T18:43:56.184Z",
+            "name": "Changezi Point",
+            "shopkeeper_name": "Afroz bhai",
+            "location": 1
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 8,
+        "fields": {
+            "added_on": "2021-01-12T18:44:30.130Z",
+            "name": "Bachcha",
+            "shopkeeper_name": "Bachcha",
+            "location": 1
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 9,
+        "fields": {
+            "added_on": "2021-01-12T18:45:00.147Z",
+            "name": "STOP N SHOP",
+            "shopkeeper_name": "Bablu Bhai",
+            "location": 1
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 10,
+        "fields": {
+            "added_on": "2021-01-12T18:45:58.394Z",
+            "name": "Whole Sale",
+            "shopkeeper_name": "Gulez sahab",
+            "location": 2
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 11,
+        "fields": {
+            "added_on": "2021-01-12T18:46:50.227Z",
+            "name": "MOID",
+            "shopkeeper_name": "Moid Bhai",
+            "location": 3
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 12,
+        "fields": {
+            "added_on": "2021-01-12T18:47:22.951Z",
+            "name": "Nirala",
+            "shopkeeper_name": "Khalid  Sahab",
+            "location": 3
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 13,
+        "fields": {
+            "added_on": "2021-01-12T18:47:49.251Z",
+            "name": "Nirala",
+            "shopkeeper_name": "Abrar Sahab",
+            "location": 1
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 14,
+        "fields": {
+            "added_on": "2021-01-12T18:48:25.119Z",
+            "name": "Ahmad Store",
+            "shopkeeper_name": "Mohammad Bhai",
+            "location": 1
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 15,
+        "fields": {
+            "added_on": "2021-01-12T18:49:36.765Z",
+            "name": "Pappu General  Store",
+            "shopkeeper_name": "Yusuf bhai",
+            "location": 4
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 16,
+        "fields": {
+            "added_on": "2021-01-12T18:50:30.592Z",
+            "name": "Babu Kirana",
+            "shopkeeper_name": "Babu bhai",
+            "location": 1
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 17,
+        "fields": {
+            "added_on": "2021-01-12T18:51:25.153Z",
+            "name": "Ashshu General Store",
+            "shopkeeper_name": "Ashshu bhai",
+            "location": 1
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 18,
+        "fields": {
+            "added_on": "2021-01-12T18:52:31.276Z",
+            "name": "Haji ji General Store",
+            "shopkeeper_name": "Haji ji",
+            "location": 5
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 19,
+        "fields": {
+            "added_on": "2021-01-12T18:53:03.689Z",
+            "name": "Al Kamar Shoppy",
+            "shopkeeper_name": "Urfi bhai",
+            "location": 5
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 20,
+        "fields": {
+            "added_on": "2021-01-12T18:54:11.484Z",
+            "name": "Prayag Store",
+            "shopkeeper_name": "Mohasin bhai",
+            "location": 2
+        }
+    },
+    {
+        "model": "home.shop",
+        "pk": 21,
+        "fields": {
+            "added_on": "2021-01-12T19:14:04.803Z",
+            "name": "Adil General Store",
+            "shopkeeper_name": "Adil bhai",
+            "location": 6
+        }
+    },
+    {
+        "model": "home.order",
+        "pk": 1,
+        "fields": {
+            "created_on": "2021-01-12T19:00:30.583Z",
+            "shop": 10,
+            "product": 10,
+            "quantity": 5,
+            "amount": 200.0
+        }
+    }
+]
