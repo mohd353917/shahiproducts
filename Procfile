@@ -1,0 +1,1 @@
+web: gunicorn shahiproducts.wsgi
